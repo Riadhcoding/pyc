@@ -7,6 +7,8 @@
 
 #  pyc و فك تشفير
 
+<img src=".Screenshot.jpg">
+
 ## install in kali linux and termux
 ### run in python3
 ``
