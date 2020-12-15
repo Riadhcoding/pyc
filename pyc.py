@@ -31,10 +31,10 @@ if choose =='1':
     file_py = input("\n\033[1;32mFile >\033[1;37m")
     compileall.compile_file(file_py)
     print('\033[1;31msuccess encrypt')
-    print("\033[1;36mSave to /sdcard/__pycache__")
+    print("\033[1;36mSave to __pycache__")
 elif choose =='2':
     file_pyc = input('\n\033[1;32mFile >\033[1;37m')
-    com = f'uncompyle6 {file_pyc} > {file_pyc}_dec.py'
+    com = f'uncompyle6 {file_pyc} > dec.py'
     os.system(com)
     print('\033[1;31mdecoding success')
 else:
