@@ -1,6 +1,7 @@
 import compileall
 import os,sys,time
 from datetime import datetime
+os.system('pip install uncompyle6')
 a = datetime.now().strftime('%Y-%m-%d %H:%M')
 os.system('git pull')
 logo = """
