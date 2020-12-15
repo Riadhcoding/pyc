@@ -33,10 +33,10 @@ if choose =='1':
     print('\033[1;31msuccess encrypt')
     print("\033[1;36mSave to /sdcard/__pycache__")
 elif choose =='2':
-        file_pyc = input('\033[1;32mFile >\033[1;37m')
-        com = f'uncompyle6 {file_pyc} > {file_pyc}_dec.py'
-        os.system(com)
-        print('\033[1;31mdecoding success')
+    file_pyc = input('\033[1;32mFile >\033[1;37m')
+    com = f'uncompyle6 {file_pyc} > {file_pyc}_dec.py'
+    os.system(com)
+    print('\033[1;31mdecoding success')
 else:
     print('\033[1;31mplease choose 1 or 2 !')
 
